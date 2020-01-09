@@ -1,0 +1,148 @@
+/**
+Palette:
+Dark color - #274156 (Japanese Indigo)
+Light color - #ffa69e (Light Salmon Pink)
+Mid color - #b52c3e (Red - from roses)
+Off-white bg - #f3f7f0
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:600|Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3f7f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+p, li, a {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#top-img {
+  width: 100vw;
+  height: 50vh;
+  background-image: url("res/roses.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#top-img > h1 {
+  color: white;
+  font-size: 4em;
+  text-shadow: 2px 2px black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 3px;
+  padding-right: 9px;
+}
+
+.b-container {
+  min-height: 50vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+#b-1 {
+  background-color: #f3f7f0; /* white color */
+  text-decoration: none;
+  color: #274156; /* dark color */
+  width: 100px;
+  padding-top: 8px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: solid 8px #b52c3e; /* mid color */
+  padding: 5px;
+  margin: 20px;
+}
+
+#b-1:hover {
+  background-color: #b52c3e; /* mid color */
+  color: white;
+  transition: 0.3s;
+  border-color: #f3f7f0; /* white color */
+  border-width: 0px;
+}
+
+#b-2 {
+  background-color: #f3f7f0; /* white color */
+  text-decoration: none;
+  color: #274156; /* dark color */
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1.5px solid #b52c3e; /* mid color */
+  margin: 20px;
+}
+
+#b-2:hover {
+  background-color: #b52c3e; /* mid color */
+  color: white;
+  transition: 0.3s;
+}
+
+#b-3 {
+  background-color: #b52c3e; /* mid color */
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50px;
+  border: 1.5px solid #b52c3e; /* mid color */
+  margin: 20px;
+}
+
+#b-3:hover {
+  background-color: #f3f7f0; /* white color */
+  color: #274156; /* dark color */
+  transition: 0.3s;
+}
+
+#b-4 {
+  background-color: #b52c3e; /* mid color */
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border: 1.5px solid #b52c3e; /* mid color */
+  margin: 20px;
+}
+
+#b-4:hover {
+  background-color: #f3f7f0; /* white color */
+  color: #274156; /* dark color */
+  transition: 0.3s;
+}
+
+#b-5 {
+  background-color: #f3f7f0; /* white color */
+  text-decoration: none;
+  color: #274156; /* dark color */
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border: 1.5px solid #b52c3e; /* mid color */
+  margin: 20px;
+}
+
+#b-5:hover {
+  background-color: #b52c3e; /* mid color */
+  color: white;
+  transition: 0.3s;
+}
